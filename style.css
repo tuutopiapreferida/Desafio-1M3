@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-Azure);
+  margin: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://canalcocina.es/medias/_cache/zoom-52a52138acf0d9a7a845e2ee8f9351fc-920-518.jpg?width=620&quality=85&auto=format&fit=max&s=c7c99dd657615d6cc1cc4dbc632d8f3f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background-color: PeachPuff;
+  color: #fff;
+  width:100vw;
+  height:20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulo {
+   color: DarkKhaki;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.titulo{
+   text-align: center;
+   margin:40px;
+   padding:5px;
+   color:RosyBrown;
+   text-shadow:1px 1px 0 #000;
+   font-size: 3em;
+   }
+
+.panquuque {
+  margin-top: 0;
+  margin-left: -20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+.tituloIngredientes {
+  margin-top: 0;
+  margin-left: -20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.tituloPasos {
+  margin-top: 0;
+  margin-left: -20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.titulos{
+   color: whitesmoke;
+   text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  background-color: #eee;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.links {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-family: arial;
+}
+
+aside {
+   color: whitesmoke;
+   padding: 50px 20px 20px 300px;
+   margin:20px;
+    
+}
+
+iframe{
+   width:45vw;
+   height:30vw;
+   border:5px solid gray;
+   border-color:darkgray gray gray darkgray;
+   position:relative;
+     }
+
+footer {
+  background-color: PeachPuff;
+  color: #fff;
+  width:100vw;
+  height:5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+a[target=_blank] {
+  color: dimgrey;
+}
